@@ -10,7 +10,7 @@ variable "gcp_project" {
 variable "gcp_region" {
   description = "Region in which GCP Resources to be created"
   type = string
-  default = ""
+  default = "us-central1"
 }
 
 
